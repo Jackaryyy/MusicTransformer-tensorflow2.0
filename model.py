@@ -11,7 +11,7 @@ tf.executing_eagerly()
 
 
 class MusicTransformer(keras.Model):
-    def __init__(self, embedding_dim=256, vocab_size=388+2, num_layer=6,
+    def __init__(self, embedding_dim=256, vocab_size=388+3, num_layer=6,
                  max_seq=2048, dropout=0.2, debug=False, loader_path=None, dist=False):
         super(MusicTransformer, self).__init__()
         self._debug = debug
