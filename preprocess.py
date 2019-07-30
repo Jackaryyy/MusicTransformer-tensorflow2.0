@@ -8,7 +8,7 @@ import tensorflow as tf
 from sequence import NoteSeq, EventSeq, ControlSeq
 import utils
 import params as par
-from midi_processor.processor import encode_midi, decode_midi
+from midi_processor import encode_midi, decode_midi
 import config
 import random
 
